@@ -88,7 +88,7 @@ const DRESS_CATALOG = [
     category: 'Casual Wear',
     sizeRange: 'XS – L',
     badge: 'Trending',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80',
     description: 'Cute gingham plaid crop top and wide-leg trousers set. Premium pre-washed breathable cotton.',
     isFeatured: false
   },
@@ -99,7 +99,7 @@ const DRESS_CATALOG = [
     category: 'Casual Wear',
     sizeRange: 'S – XXL',
     badge: 'Summer Style',
-    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?auto=format&fit=crop&w=800&q=80',
     description: 'Flowy botanical garden floral printed wrap-front casual maxi dress with flutter sleeves.',
     isFeatured: false
   },
@@ -110,7 +110,7 @@ const DRESS_CATALOG = [
     category: 'Casual Wear',
     sizeRange: 'XS – XL',
     badge: 'Casual Chic',
-    image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1550639525-c97d455acf70?auto=format&fit=crop&w=800&q=80',
     description: 'Soft Jaipur block printed tunic top paired with elasticated cotton casual shorts.',
     isFeatured: false
   },
@@ -121,7 +121,7 @@ const DRESS_CATALOG = [
     category: 'Casual Wear',
     sizeRange: 'XS – XL',
     badge: 'New Arrival',
-    image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=800&q=80',
     description: 'Soft combed cotton casual dress with cheerful tulip prints and breathable cotton inner lining.',
     isFeatured: false
   },
@@ -132,7 +132,7 @@ const DRESS_CATALOG = [
     category: 'Casual Wear',
     sizeRange: 'S – XXL',
     badge: 'Daily Wear',
-    image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80',
     description: 'Calm sage green casual tunic with mandarin collar and matching straight-cut cotton trousers.',
     isFeatured: false
   },
@@ -143,7 +143,7 @@ const DRESS_CATALOG = [
     category: 'Casual Wear',
     sizeRange: 'S – XL',
     badge: 'Holiday Special',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=800&q=80',
     description: 'Traditional red & green tartan plaid cotton dress with ribbon sash and soft cotton lining.',
     isFeatured: false
   },
@@ -211,7 +211,7 @@ const DRESS_CATALOG = [
     category: 'Traditional Wear',
     sizeRange: 'S – XXL',
     badge: 'Royal Silk',
-    image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80',
     description: 'Rich temple border silk woven traditional lehenga skirt with matching embroidered zari blouse.',
     isFeatured: false
   },
@@ -222,7 +222,7 @@ const DRESS_CATALOG = [
     category: 'Traditional Wear',
     sizeRange: 'XS – XL',
     badge: 'Super Value',
-    image: 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80',
     description: 'Pure cotton muslin A-line printed kurti with pants and lightweight dupatta.',
     isFeatured: false
   },
@@ -233,7 +233,7 @@ const DRESS_CATALOG = [
     category: 'Traditional Wear',
     sizeRange: 'S – XXL',
     badge: 'Wedding Luxe',
-    image: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1610030469668-9887034638a1?auto=format&fit=crop&w=800&q=80',
     description: 'Floor-length silk Anarkali suit studded with real mirror-work embroidery and net dupatta.',
     isFeatured: false
   },
@@ -244,7 +244,7 @@ const DRESS_CATALOG = [
     category: 'Traditional Wear',
     sizeRange: 'S – XXL',
     badge: 'Festive Favorite',
-    image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1585487000160-a47cd5749f7b?auto=format&fit=crop&w=800&q=80',
     description: 'Deep ruby plum brocade jacquard silk kurti with golden zari weave and soft inner lining.',
     isFeatured: false
   },
@@ -255,7 +255,7 @@ const DRESS_CATALOG = [
     category: 'Traditional Wear',
     sizeRange: 'S – XXL',
     badge: 'Trending',
-    image: 'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1621600411688-4be93cd68504?auto=format&fit=crop&w=800&q=80',
     description: 'Pastel peach silk blend kurti paired with organza floral digital print dupatta.',
     isFeatured: false
   },
@@ -266,7 +266,7 @@ const DRESS_CATALOG = [
     category: 'Traditional Wear',
     sizeRange: 'S – XXL',
     badge: 'Heritage Craft',
-    image: 'https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=800&q=80',
     description: 'Traditional Gujarati Bandhani tie-dye printed silk kurti with hand-worked Gota Patti borders.',
     isFeatured: false
   },
