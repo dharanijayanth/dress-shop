@@ -9,6 +9,10 @@
   --bg-secondary: #E2E8F4;     /* Soft Slate Ice-Blue Secondary */
   --dusty-rose: #2563EB;       /* Royal Sapphire Blue (Primary Accent) */
   --dusty-rose-hover: #1D4ED8; /* Deep Royal Sapphire Blue Hover */
+  --dusty-rose-light: #EFF6FF; /* Soft Ice-Blue Tint */
+  --primary-accent: #2563EB;   /* Primary Accent (Royal Sapphire) */
+  --deep-accent: #0F172A;      /* Deep Accent (Midnight Royal Navy Ink) */
+  --accent-color: #2563EB;     /* Royal Sapphire Blue Accent */
   --sage-green: #0E7490;       /* Steel Cyan-Teal (Secondary Accent) */
   --muted-gold: #D97706;       /* Warm Royal Gold Accent & Ratings */
   --deep-plum: #0F172A;        /* Midnight Royal Navy (Header, Dark Ink & Text) */
@@ -522,22 +526,26 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .filter-btn {
-  padding: 8px 20px;
+  padding: 10px 22px;
   border-radius: var(--radius-pill);
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-muted);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  background-color: var(--bg-secondary);
+  border: 1px solid transparent;
   transition: all var(--transition-fast);
 }
 
 .filter-btn:hover {
-  color: var(--deep-accent);
-  background-color: var(--bg-secondary);
+  color: var(--white);
+  background-color: var(--dusty-rose);
+  transform: translateY(-1px);
 }
 
 .filter-btn.active {
-  background-color: var(--deep-accent);
+  background-color: var(--dusty-rose);
   color: var(--white);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
 }
 
 .toolbar-search-sort {
@@ -681,6 +689,19 @@ h1, h2, h3, h4, .font-heading {
   letter-spacing: 1.5px;
   color: var(--primary-accent);
   font-weight: 600;
+}
+
+.age-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--primary-accent);
+  background-color: var(--dusty-rose-light);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  margin-left: 6px;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  letter-spacing: 0.5px;
 }
 
 .product-price {
