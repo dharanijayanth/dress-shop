@@ -145,9 +145,21 @@
     <section id="products" class="products-section section">
       <div class="container">
         <div class="section-header text-center reveal fade-up">
-          <span class="section-tag">Explore Catalog</span>
-          <h2 class="section-title">Our Fashion Collection</h2>
-          <p class="section-subtitle">Browse all handcrafted Traditional and Casual wear designs with size options</p>
+        <!-- Featured Bestsellers Carousel Section -->
+        <div class="featured-carousel-wrapper reveal fade-up">
+          <div class="featured-carousel-header">
+            <div class="carousel-title-group">
+              <span class="section-tag" style="margin-bottom: 4px;">Top Picks</span>
+              <h3 class="featured-carousel-title"><i class="fa-solid fa-sparkles"></i> Featured Bestsellers</h3>
+            </div>
+            <div class="carousel-nav-btns">
+              <button id="carousel-prev" class="carousel-btn" aria-label="Previous Slide"><i class="fa-solid fa-chevron-left"></i></button>
+              <button id="carousel-next" class="carousel-btn" aria-label="Next Slide"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div class="featured-carousel-track" id="featured-carousel-track">
+            <!-- Populated via JavaScript -->
+          </div>
         </div>
 
         <!-- Catalog Filter Toolbar -->
@@ -167,10 +179,6 @@
               <option value="default">Sort by: Featured</option>
               <option value="price-low">Price: Low to High</option>
               <option value="price-high">Price: High to Low</option>
-              <option value="name">Name: A to Z</option>
-            </select>
-          </div>
-        </div>
               <option value="name">Name: A to Z</option>
             </select>
           </div>
@@ -248,13 +256,13 @@
             <span class="section-tag">Our Story</span>
             <h2 class="section-title">Welcome to Zinzu</h2>
             <p class="about-text-lead">
-              "Handmade dresses for girls aged 2–14 — crafted for comfort, quiet luxury, and memories that last a lifetime."
+              "Handmade fashion for women & girls — crafted for comfort, quiet luxury, and memories that last a lifetime."
             </p>
             <p class="about-text">
-              Zinzu is a specialized girls' fashion boutique born out of a desire to create beautiful, heirloom-quality dresses for young girls. We reject scratchy synthetic fabrics, mass-produced plastic sequins, and stiff silhouettes in favor of breathable cottons, rich silks, and gentle tailoring.
+              Zinzu is a specialized fashion boutique born out of a desire to create beautiful, heirloom-quality ethnic and casual wear for women and girls. We reject scratchy synthetic fabrics, mass-produced plastic sequins, and stiff silhouettes in favor of breathable cottons, rich silks, and gentle tailoring.
             </p>
             <p class="about-text">
-              Whether you need a whimsical birthday frock, a traditional silk Pattu Pavadai for festivals, a graceful flower girl gown, or custom bespoke tailoring, every piece is made to order and can be discussed directly with us on WhatsApp.
+              Whether you need a contemporary co-ord set, a traditional silk Pattu Pavadai, a Lucknowi Chikankari Anarkali, or custom bespoke tailoring, every piece is made to order and can be discussed directly with us on WhatsApp.
             </p>
 
             <div class="about-features">
@@ -262,14 +270,14 @@
                 <i class="fa-solid fa-wand-magic-sparkles"></i>
                 <div>
                   <h4>Bespoke Custom Fits</h4>
-                  <p>Send your girl's exact chest and length measurements on WhatsApp.</p>
+                  <p>Send your exact measurements (bust, waist & length) on WhatsApp for a custom fit.</p>
                 </div>
               </div>
               <div class="about-feature-box">
                 <i class="fa-solid fa-feather"></i>
                 <div>
                   <h4>Zero-Itch Guarantee</h4>
-                  <p>100% breathable organic cotton lining on every seam.</p>
+                  <p>100% breathable organic cotton lining on every inner seam.</p>
                 </div>
               </div>
             </div>
@@ -492,10 +500,10 @@
       <div class="footer-brand">
         <a href="#home" class="logo">
           <span class="logo-title">Zinzu</span>
-          <span class="logo-subtitle">Girls' Dress Boutique</span>
+          <span class="logo-subtitle">Women & Girls Fashion</span>
         </a>
         <p class="footer-tagline">
-          Handmade dresses for girls aged 2–14. Crafted with pure natural fabrics, soft cotton linings, and growth-friendly tailoring for life's precious moments.
+          Handmade co-ords, ethnic suits & dresses for women and girls. Crafted with pure natural fabrics, soft cotton linings, and growth-friendly tailoring for life's precious moments.
         </p>
         <p class="footer-email-link" style="margin-top: 10px; font-size: 0.9rem; font-weight: 500;">
           <i class="fa-solid fa-envelope" style="color: var(--dusty-rose); margin-right: 6px;"></i>
@@ -507,7 +515,7 @@
         <h4 class="footer-heading">Quick Links</h4>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#occasions">Occasions</a></li>
+          <li><a href="#categories">Categories</a></li>
           <li><a href="#products">Collections</a></li>
           <li><a href="#craft">Our Craft</a></li>
           <li><a href="#about">About Atelier</a></li>
@@ -517,8 +525,8 @@
       <div class="footer-links">
         <h4 class="footer-heading">Shop Collections</h4>
         <ul>
-          <li><a href="#products" class="cat-footer-link" data-cat="Formal Wear">Formal Office Wear & Co-ords</a></li>
-          <li><a href="#products" class="cat-footer-link" data-cat="Formal Wear">Tailored Blazer & Pants Sets</a></li>
+          <li><a href="#products" class="cat-footer-link" data-cat="Casual Wear">LIVA Viscose Casual Co-ords</a></li>
+          <li><a href="#products" class="cat-footer-link" data-cat="Casual Wear">Pure Linen & Cotton Sets</a></li>
           <li><a href="#products" class="cat-footer-link" data-cat="Traditional Wear">Traditional Silk Pattu Pavadai</a></li>
           <li><a href="#products" class="cat-footer-link" data-cat="Traditional Wear">Lucknowi Chikankari Anarkalis</a></li>
           <li><a href="#products" class="cat-footer-link" data-cat="Traditional Wear">Chanderi Kurti Palazzo Sets</a></li>
@@ -562,7 +570,7 @@
       </div>
       <div class="wa-popover-body">
         <p class="wa-msg-bubble">
-          Hi there! 👋 Welcome to Zinzu Atelier. Looking for a handmade frock for your girl (Ages 2–14)? Message us for sizing & custom tailoring!
+          Hi there! 👋 Welcome to Zinzu Atelier. Looking for a handmade dress or co-ord set for yourself or your daughter? Message us for sizing & custom tailoring!
         </p>
       </div>
       <a href="#" id="wa-popover-btn" target="_blank" rel="noopener noreferrer" class="wa-popover-cta">

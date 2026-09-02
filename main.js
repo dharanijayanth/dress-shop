@@ -308,7 +308,14 @@ function addToCart(dressId, size = '') {
   const dress = DRESS_CATALOG.find(d => d.id === dressId);
   if (!dress) return;
 
-  const itemSize = size || dress.ageRange || '4-6Y';
+  // Determine fallback size from dress sizeRange (e.g., 'S – XXL' -> 'S') or default to 'M'
+  let defaultSize = 'M';
+  if (dress.sizeRange) {
+    const parsedSize = dress.sizeRange.split('–')[0].split('-')[0].trim();
+    if (parsedSize) defaultSize = parsedSize;
+  }
+
+  const itemSize = size || defaultSize;
   const cartKey = `${dress.id}_${itemSize}`;
 
   const existingIndex = cartItems.findIndex(item => item.cartKey === cartKey);
@@ -374,7 +381,7 @@ function createCartWhatsAppCheckoutUrl() {
   cartItems.forEach((item, idx) => {
     const itemTotal = item.price * item.qty;
     grandTotal += itemTotal;
-    text += `${idx + 1}. *${item.name}* (Age/Size: ${item.size}) x ${item.qty} = ₹${itemTotal.toLocaleString('en-IN')}\n`;
+    text += `${idx + 1}. *${item.name}* (Size: ${item.size}) x ${item.qty} = ₹${itemTotal.toLocaleString('en-IN')}\n`;
   });
 
   text += `\n*Total Amount:* ₹${grandTotal.toLocaleString('en-IN')}\n`;
@@ -425,10 +432,10 @@ function renderCartDrawer() {
 
   listEl.innerHTML = cartItems.map(item => `
     <div class="cart-item-card" data-key="${item.cartKey}">
-      <img src="${item.image}" alt="${item.name}" class="cart-item-img">
+      <img src="${item.image}" alt="" class="cart-item-img">
       <div class="cart-item-details">
         <h4 class="cart-item-title">${item.name}</h4>
-        <div class="cart-item-meta">Age / Size: ${item.size}</div>
+        <div class="cart-item-meta">Size: ${item.size}</div>
         <div class="cart-item-price">₹${item.price.toLocaleString('en-IN')}</div>
         <div class="cart-qty-controls">
           <button class="cart-qty-btn qty-minus" data-key="${item.cartKey}">-</button>
@@ -479,7 +486,7 @@ function showToastNotification(msg) {
 function createWhatsAppOrderUrl(dressName, price, size = '') {
   let messageText = `Hi Zinzu! I'm interested in ordering: ${dressName} - ₹${price.toLocaleString('en-IN')}`;
   if (size) {
-    messageText += ` (Age/Size: ${size})`;
+    messageText += ` (Size: ${size})`;
   }
   messageText += `. Could you please confirm availability & tailoring timeline?`;
   return `https://wa.me/${SHOP_WHATSAPP_NUMBER}?text=${encodeURIComponent(messageText)}`;
@@ -506,7 +513,7 @@ function renderProductCard(dress) {
   return `
     <article class="product-card" data-id="${dress.id}" data-category="${dress.category}">
       <div class="product-img-wrapper">
-        <img src="${dress.image}" alt="${dress.name}" loading="lazy">
+        <img src="${dress.image}" alt="" loading="lazy">
         <span class="product-badge">${dress.badge}</span>
         <button class="quick-view-btn" data-id="${dress.id}">
           <i class="fa-regular fa-eye"></i> Quick View
@@ -895,6 +902,31 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       newsletterSuccess?.classList.add('hidden');
     }, 4000);
+  });
+
+  // Active Nav Link Scroll Highlight Observer
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-menu .nav-link');
+
+  window.addEventListener('scroll', () => {
+    let currentSection = '';
+    const scrollPosition = window.scrollY + 120;
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        currentSection = section.getAttribute('id');
+      }
+    });
+
+    navLinks.forEach(link => {
+      const href = link.getAttribute('href');
+      if (href === `#${currentSection}`) {
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      }
+    });
   });
 
   // Scroll Reveal Observer (Intersection Observer)

@@ -477,32 +477,75 @@ h1, h2, h3, h4, .font-heading {
   justify-content: center;
   box-shadow: var(--shadow-subtle);
   transition: all var(--transition-fast);
+}
+
+/* Featured Carousel Styles */
+.featured-carousel-wrapper {
+  margin-bottom: 48px;
+  background-color: var(--white);
+  padding: 28px 32px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-subtle);
+}
+
+.featured-carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--bg-secondary);
+}
+
+.featured-carousel-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+
+.carousel-nav-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--bg-base);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--bg-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
 }
 
 .carousel-btn:hover {
-  background-color: var(--deep-accent);
+  background-color: var(--dusty-rose);
   color: var(--white);
+  border-color: var(--dusty-rose);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
 }
 
-.carousel-container {
+.featured-carousel-track {
+  display: flex;
+  gap: 24px;
   overflow-x: auto;
   scroll-behavior: smooth;
   scrollbar-width: none; /* Firefox */
-  padding: 10px 4px 20px 4px;
+  padding: 8px 4px 16px 4px;
 }
 
-.carousel-container::-webkit-scrollbar {
+.featured-carousel-track::-webkit-scrollbar {
   display: none; /* Chrome/Safari */
 }
 
-.carousel-track {
-  display: flex;
-  gap: 24px;
-}
-
-.carousel-item {
-  flex: 0 0 310px;
+.featured-carousel-track .carousel-item {
+  flex: 0 0 320px;
+  max-width: 320px;
 }
 
 /* 8. PRODUCT CARDS & GRID */
