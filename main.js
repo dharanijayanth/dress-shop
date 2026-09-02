@@ -7,8 +7,8 @@
 // 1. CONFIGURATION & WHATSAPP SETTINGS
 // ==========================================
 // Replace this with your shop's actual WhatsApp phone number (with country code, no + or spaces)
-const SHOP_WHATSAPP_NUMBER = '919876543210';
-const SHOP_WHATSAPP_DISPLAY = '+91 98765 43210';
+const SHOP_WHATSAPP_NUMBER = '917825957949';
+const SHOP_WHATSAPP_DISPLAY = '+91 78259 57949';
 
 // ==========================================
 // 2. PRODUCT CATALOG DATA
