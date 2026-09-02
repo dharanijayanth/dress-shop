@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zinzu | Handcrafted Girls' Dress Boutique (Ages 2–14)</title>
+  <meta name="description" content="Zinzu - Handmade boutique dresses for girls aged 2–14. Party frocks, everyday cotton frocks, ethnic pattu sets, flower girl gowns, and made-to-order bespoke pieces.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C4707A'><path d='M12 2L15 9H22L16.5 13.5L18.5 21L12 16.5L5.5 21L7.5 13.5L2 9H9L12 2Z'/></svg>">
+  
+  <!-- Google Fonts: Fraunces (Headings/Logo) & Work Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Header Navbar -->
+  <header id="main-header" class="header">
+    <div class="container header-container">
+      <a href="#home" class="logo">
+        <span class="logo-title">Zinzu</span>
+        <span class="logo-subtitle">Girls' Dress Boutique</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#occasions" class="nav-link">Occasions</a>
+        <a href="#featured" class="nav-link">New In</a>
+        <a href="#products" class="nav-link">Collections</a>
+        <a href="#craft" class="nav-link">Our Craft</a>
+        <a href="#about" class="nav-link">About Atelier</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="cart-toggle-btn" class="btn-cart-icon" aria-label="View Shopping Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span id="cart-badge-count" class="cart-badge-count">0</span>
+        </button>
+        <a href="#" id="header-wa-btn" target="_blank" rel="noopener noreferrer" class="btn btn-wa-header" aria-label="Order on WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Order on WhatsApp</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars" id="toggle-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content reveal fade-up">
+          <span class="hero-badge">Handmade Boutique • Ages 2 to 14 Years</span>
+          <h1 class="hero-title">Handcrafted Dresses for Little Moments & Grand Celebrations</h1>
+          <p class="hero-subtitle">
+            Thoughtfully tailored frocks, pattu sets, and bespoke gowns. Made from 100% natural organic fabrics with zero-itch cotton linings and growth-friendly seams.
+          </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">
+              <span>Shop Collection</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#occasions" class="btn btn-secondary">Shop by Occasion</a>
+          </div>
+          <div class="hero-perks">
+            <div class="perk-item">
+              <i class="fa-solid fa-sparkles"></i>
+              <span>10+ Years Atelier Experience</span>
+            </div>
+            <div class="perk-item">
+              <i class="fa-solid fa-seedling"></i>
+              <span>100% Natural Organic Fabrics</span>
+            </div>
+            <div class="perk-item">
+              <i class="fa-solid fa-heart"></i>
+              <span>4.9★ Parent Rating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Marquee Category Strip -->
+    <div class="marquee-section">
+      <div class="marquee-track">
+        <div class="marquee-item">Party & Birthday Frocks <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Ethnic & Pattu Pavadai Sets <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Flower Girl Gowns <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Everyday Cotton Frocks <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Bespoke Made-to-Order <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Hand-Smocked Vintage Frocks <span class="marquee-dot">✦</span></div>
+
+        <!-- Duplicated for smooth infinite loop -->
+        <div class="marquee-item">Party & Birthday Frocks <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Ethnic & Pattu Pavadai Sets <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Flower Girl Gowns <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Everyday Cotton Frocks <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Bespoke Made-to-Order <span class="marquee-dot">✦</span></div>
+        <div class="marquee-item">Hand-Smocked Vintage Frocks <span class="marquee-dot">✦</span></div>
+      </div>
+    </div>
+
+    <!-- Shop by Occasion Asymmetric Grid -->
+    <section id="occasions" class="occasions-section section">
+      <div class="container">
+        <div class="section-header text-center reveal fade-up">
+          <span class="section-tag">Designed for Every Memory</span>
+          <h2 class="section-title">Shop by Occasion</h2>
+          <p class="section-subtitle">Discover tailored silhouettes crafted with gentle comfort for your child's special moments</p>
+        </div>
+
+        <div class="occasion-grid reveal fade-up">
+          <!-- Featured Large Card -->
+          <div class="occasion-card large" data-category="Party Frocks">
+            <img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=1000&q=80" alt="Party Frocks" loading="lazy">
+            <div class="occasion-overlay">
+              <span class="occasion-tag">Bestselling Category</span>
+              <h3 class="occasion-title">Party & Birthday Frocks</h3>
+              <p class="occasion-subtitle">Rose sequins, layered organza & dream tulle frocks for birthday celebrations</p>
+            </div>
+          </div>
+
+          <!-- Small Card 1 -->
+          <div class="occasion-card" data-category="Everyday Cotton">
+            <img src="https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=700&q=80" alt="Everyday Cotton Frocks" loading="lazy">
+            <div class="occasion-overlay">
+              <span class="occasion-tag">Breathable Comfort</span>
+              <h3 class="occasion-title">Everyday Cotton Frocks</h3>
+              <p class="occasion-subtitle">Soft handblock printed sundresses</p>
+            </div>
+          </div>
+
+          <!-- Small Card 2 -->
+          <div class="occasion-card" data-category="Ethnic Pattu">
+            <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" alt="Ethnic & Pattu Sets" loading="lazy">
+            <div class="occasion-overlay">
+              <span class="occasion-tag">Heritage Craft</span>
+              <h3 class="occasion-title">Ethnic & Pattu Sets</h3>
+              <p class="occasion-subtitle">Pure silk Pattu Pavadai & Anarkalis</p>
+            </div>
+          </div>
+
+          <!-- Small Card 3 -->
+          <div class="occasion-card" data-category="Flower Girl">
+            <img src="https://images.unsplash.com/photo-1549416878-b9ca95e26903?auto=format&fit=crop&w=700&q=80" alt="Flower Girl Gowns" loading="lazy">
+            <div class="occasion-overlay">
+              <span class="occasion-tag">Wedding Special</span>
+              <h3 class="occasion-title">Flower Girl Gowns</h3>
+              <p class="occasion-subtitle">Ivory pearls & lace bridesmaid dresses</p>
+            </div>
+          </div>
+
+          <!-- Small Card 4 -->
+          <div class="occasion-card" data-category="Made to Order">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=700&q=80" alt="Bespoke Made to Order" loading="lazy">
+            <div class="occasion-overlay">
+              <span class="occasion-tag">Bespoke Atelier</span>
+              <h3 class="occasion-title">Made to Order</h3>
+              <p class="occasion-subtitle">Custom sizing & personalized measurements</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured / New Arrivals Carousel -->
+    <section id="featured" class="featured-section section bg-soft">
+      <div class="container">
+        <div class="section-header-flex reveal fade-up">
+          <div>
+            <span class="section-tag">Fresh off the Rack</span>
+            <h2 class="section-title">New Arrivals</h2>
+          </div>
+          <div class="carousel-controls">
+            <button id="carousel-prev" class="carousel-btn" aria-label="Previous dresses"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="carousel-next" class="carousel-btn" aria-label="Next dresses"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+
+        <div class="carousel-container reveal fade-up">
+          <div class="carousel-track" id="featured-carousel-track">
+            <!-- Rendered dynamically by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Product Grid & Catalog -->
+    <section id="products" class="products-section section">
+      <div class="container">
+        <div class="section-header text-center reveal fade-up">
+          <span class="section-tag">Lookbook Catalog</span>
+          <h2 class="section-title">Our Dress Collection</h2>
+          <p class="section-subtitle">Click "Order on WhatsApp" on any dress to message us directly with details</p>
+        </div>
+
+        <!-- Catalog Filter Toolbar -->
+        <div class="catalog-toolbar reveal fade-up">
+          <div class="filter-tabs" id="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All Pieces</button>
+            <button class="filter-btn" data-filter="Party Frocks">Party Frocks</button>
+            <button class="filter-btn" data-filter="Everyday Cotton">Cotton Frocks</button>
+            <button class="filter-btn" data-filter="Ethnic Pattu">Ethnic & Pattu</button>
+            <button class="filter-btn" data-filter="Flower Girl">Flower Girl</button>
+            <button class="filter-btn" data-filter="Made to Order">Made to Order</button>
+          </div>
+
+          <div class="toolbar-search-sort">
+            <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="search-input" placeholder="Search girls dresses..." aria-label="Search dresses">
+            </div>
+            <select id="sort-select" class="sort-select" aria-label="Sort products">
+              <option value="default">Sort by: Featured</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="name">Name: A to Z</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-grid" id="product-grid">
+          <!-- Populated via JavaScript -->
+        </div>
+
+        <div id="no-products-msg" class="no-products hidden">
+          <i class="fa-solid fa-shirt"></i>
+          <h3>No dresses found</h3>
+          <p>Try resetting your search filter or selecting another category.</p>
+          <button id="reset-filters-btn" class="btn btn-secondary">Reset Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Craft Section -->
+    <section id="craft" class="craft-section section">
+      <div class="container">
+        <div class="section-header text-center reveal fade-up">
+          <span class="section-tag">Atelier Philosophy</span>
+          <h2 class="section-title">Our Craft & Tailoring</h2>
+          <p class="section-subtitle">Every Zinzu dress is crafted with pure natural fabrics, zero-itch linings, and growth-friendly seams</p>
+        </div>
+
+        <div class="craft-pillars reveal fade-up">
+          <div class="craft-card">
+            <div class="craft-number">01</div>
+            <h3 class="craft-title">Pure Natural Fabrics</h3>
+            <p class="craft-text">
+              We use 100% organic cotton linen, handblock printed mulmul, and pure mulberry silk. Every dress is fully lined with ultra-soft zero-itch cotton so your child stays comfortable all day.
+            </p>
+          </div>
+
+          <div class="craft-card">
+            <div class="craft-number">02</div>
+            <h3 class="craft-title">Hand-Finished Details</h3>
+            <p class="craft-text">
+              From delicate hand-smocking on vintage frocks to hand-stitched pearl highlights and enclosed French seams that prevent skin scratching or fraying.
+            </p>
+          </div>
+
+          <div class="craft-card">
+            <div class="craft-number">03</div>
+            <h3 class="craft-title">Growth-Friendly Sizing</h3>
+            <p class="craft-text">
+              Children grow fast! Our dresses feature hidden seam margins and adjustable back sashes so your child's favorite dress can be let out to fit across multiple seasons.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About the Atelier Section -->
+    <section id="about" class="about-section section bg-soft">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-images reveal fade-up">
+            <div class="about-img-frame primary-frame">
+              <img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=700&q=80" alt="Zinzu Studio" loading="lazy">
+            </div>
+            <div class="about-img-frame secondary-frame">
+              <img src="https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=500&q=80" alt="Atelier Tailoring Details" loading="lazy">
+            </div>
+            <div class="about-badge-floating">
+              <span class="badge-number">100%</span>
+              <span class="badge-text">Handmade with Love</span>
+            </div>
+          </div>
+
+          <div class="about-content reveal fade-up">
+            <span class="section-tag">Our Story</span>
+            <h2 class="section-title">Welcome to Zinzu</h2>
+            <p class="about-text-lead">
+              "Handmade dresses for girls aged 2–14 — crafted for comfort, quiet luxury, and memories that last a lifetime."
+            </p>
+            <p class="about-text">
+              Zinzu is a specialized girls' fashion boutique born out of a desire to create beautiful, heirloom-quality dresses for young girls. We reject scratchy synthetic fabrics, mass-produced plastic sequins, and stiff silhouettes in favor of breathable cottons, rich silks, and gentle tailoring.
+            </p>
+            <p class="about-text">
+              Whether you need a whimsical birthday frock, a traditional silk Pattu Pavadai for festivals, a graceful flower girl gown, or custom bespoke tailoring, every piece is made to order and can be discussed directly with us on WhatsApp.
+            </p>
+
+            <div class="about-features">
+              <div class="about-feature-box">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <div>
+                  <h4>Bespoke Custom Fits</h4>
+                  <p>Send your girl's exact chest and length measurements on WhatsApp.</p>
+                </div>
+              </div>
+              <div class="about-feature-box">
+                <i class="fa-solid fa-feather"></i>
+                <div>
+                  <h4>Zero-Itch Guarantee</h4>
+                  <p>100% breathable organic cotton lining on every seam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-signature">
+              <div class="owner-info">
+                <span class="owner-title">Boutique Founder & Master Tailor</span>
+                <span class="owner-name">Zinzu Atelier Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Parent Testimonials Section (Dark Ink Background) -->
+    <section class="testimonials-section section testimonials-dark">
+      <div class="container">
+        <div class="section-header text-center reveal fade-up">
+          <span class="section-tag">Kind Words from Parents</span>
+          <h2 class="section-title">Loved by Parents & Daughters</h2>
+          <p class="section-subtitle">Real feedback from mothers who trust Zinzu for their children's special moments</p>
+        </div>
+
+        <div class="testimonials-grid reveal fade-up">
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="quote-text">
+              "The rose gold tulle frock for my daughter's 5th birthday was breathtaking! Most importantly, the inner lining was so soft that she wore it all evening without complaining once."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">Meera S.</div>
+              <div>
+                <h4 class="author-name">Meera Sundaram</h4>
+                <span class="author-tag">Mother of Ananya (5Y) • Chennai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="quote-text">
+              "Ordered a custom Pattu Pavadai set for Diwali via WhatsApp. They guided me on sizing margins so it can be adjusted as she grows. Phenomenal craftsmanship!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">Kavitha R.</div>
+              <div>
+                <h4 class="author-name">Kavitha Raman</h4>
+                <span class="author-tag">Mother of Diya (8Y) • Bengaluru</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="quote-text">
+              "We bought three flower girl gowns for my sister's wedding. The pearl embroidery was so subtle and luxurious. The girls looked like little angels!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">Samanth V.</div>
+              <div>
+                <h4 class="author-name">Samantha Verma</h4>
+                <span class="author-tag">Verified Parent • Hyderabad</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram / Pinterest Aesthetic Gallery -->
+    <section id="gallery" class="gallery-section section bg-soft">
+      <div class="container">
+        <div class="section-header text-center reveal fade-up">
+          <span class="section-tag">Pinterest Moodboard</span>
+          <h2 class="section-title">The Lookbook Gallery</h2>
+          <p class="section-subtitle">Visual inspiration & aesthetic glimpses from our boutique studio</p>
+        </div>
+
+        <div class="gallery-grid reveal fade-up">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=600&q=80" alt="Lookbook detail 1" loading="lazy">
+            <div class="gallery-hover">
+              <i class="fa-brands fa-instagram"></i>
+              <span>@zinzudressshop</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80" alt="Lookbook detail 2" loading="lazy">
+            <div class="gallery-hover">
+              <i class="fa-brands fa-pinterest-p"></i>
+              <span>View Inspiration</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80" alt="Lookbook detail 3" loading="lazy">
+            <div class="gallery-hover">
+              <i class="fa-brands fa-instagram"></i>
+              <span>#ZinzuStyle</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=600&q=80" alt="Lookbook detail 4" loading="lazy">
+            <div class="gallery-hover">
+              <i class="fa-brands fa-instagram"></i>
+              <span>@zinzudressshop</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80" alt="Lookbook detail 5" loading="lazy">
+            <div class="gallery-hover">
+              <i class="fa-brands fa-pinterest-p"></i>
+              <span>Boutique Aesthetic</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Lookbook detail 6" loading="lazy">
+            <div class="gallery-hover">
+              <i class="fa-brands fa-instagram"></i>
+              <span>#ZinzuDresses</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Store Info -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <div class="contact-card reveal fade-up">
+          <div class="contact-info">
+            <span class="section-tag">Visit or Connect</span>
+            <h2 class="section-title">We'd Love to Hear From You</h2>
+            <p class="contact-desc">
+              Have questions about fabric, custom sizes, or delivery timelines? Drop us a WhatsApp message or visit our boutique studio.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <h5>Studio Location</h5>
+                  <p>102 Fashion Avenue, Boutique Quarter, City Center</p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <h5>Direct WhatsApp</h5>
+                  <p id="contact-wa-num-display">+91 98765 43210</p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h5>Working Hours</h5>
+                  <p>Mon - Sat: 10:30 AM – 8:00 PM (Closed Sundays)</p>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-brands fa-instagram"></i></div>
+                <div>
+                  <h5>Instagram</h5>
+                  <p><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@zinzudressshop</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-action-box text-center">
+            <div class="action-box-inner">
+              <div class="action-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <h3>Order or Inquire Instantly</h3>
+              <p>Skip complicated checkout forms. Simply message our boutique concierge on WhatsApp with your favorite dress!</p>
+              <a href="#" id="contact-section-wa-btn" target="_blank" rel="noopener noreferrer" class="btn btn-wa-large">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Open WhatsApp Chat</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-title">Zinzu</span>
+          <span class="logo-subtitle">Girls' Dress Boutique</span>
+        </a>
+        <p class="footer-tagline">
+          Handmade dresses for girls aged 2–14. Crafted with pure natural fabrics, soft cotton linings, and growth-friendly tailoring for life's precious moments.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#occasions">Occasions</a></li>
+          <li><a href="#featured">New Arrivals</a></li>
+          <li><a href="#products">Collections</a></li>
+          <li><a href="#craft">Our Craft</a></li>
+          <li><a href="#about">About Atelier</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-heading">Shop Occasions</h4>
+        <ul>
+          <li><a href="#products" class="cat-footer-link" data-cat="Party Frocks">Party & Birthday Frocks</a></li>
+          <li><a href="#products" class="cat-footer-link" data-cat="Everyday Cotton">Everyday Cotton Frocks</a></li>
+          <li><a href="#products" class="cat-footer-link" data-cat="Ethnic Pattu">Ethnic & Pattu Pavadai</a></li>
+          <li><a href="#products" class="cat-footer-link" data-cat="Flower Girl">Flower Girl Gowns</a></li>
+          <li><a href="#products" class="cat-footer-link" data-cat="Made to Order">Bespoke Made to Order</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4 class="footer-heading">Boutique VIP Club</h4>
+        <p>Subscribe for exclusive lookbook previews and new drop alerts.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Your email address" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Join</button>
+        </form>
+        <span id="newsletter-success" class="newsletter-success hidden">Thank you for joining Zinzu VIP list! ✨</span>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year"></span> Zinzu Atelier. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Chat Bubble -->
+  <div class="wa-float-wrapper">
+    <div class="wa-popover" id="wa-popover">
+      <div class="wa-popover-header">
+        <div class="wa-avatar">
+          <i class="fa-solid fa-store"></i>
+          <span class="online-dot"></span>
+        </div>
+        <div>
+          <h5>Zinzu Concierge</h5>
+          <span>Online • Replies in minutes</span>
+        </div>
+        <button id="close-wa-popover" aria-label="Close message popover"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="wa-popover-body">
+        <p class="wa-msg-bubble">
+          Hi there! 👋 Welcome to Zinzu Atelier. Looking for a handmade frock for your girl (Ages 2–14)? Message us for sizing & custom tailoring!
+        </p>
+      </div>
+      <a href="#" id="wa-popover-btn" target="_blank" rel="noopener noreferrer" class="wa-popover-cta">
+        <i class="fa-brands fa-whatsapp"></i> Start Chat
+      </a>
+    </div>
+
+    <a href="#" id="wa-float-btn" class="wa-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="wa-float-badge">1</span>
+    </a>
+  </div>
+
+  <!-- Quick View Dress Modal -->
+  <div id="quick-view-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-img-col">
+          <img id="modal-img" src="" alt="Dress Quick View">
+        </div>
+
+        <div class="modal-info-col">
+          <span id="modal-category" class="product-category-badge">Category</span>
+          <h2 id="modal-title" class="modal-title">Dress Name</h2>
+          <div class="modal-price-row">
+            <span id="modal-price" class="modal-price">₹0</span>
+            <span class="modal-stock"><i class="fa-solid fa-circle-check"></i> Handcrafted & In Stock</span>
+          </div>
+
+          <p id="modal-description" class="modal-description">
+            Dress description goes here...
+          </p>
+
+          <div class="modal-meta-list">
+            <div class="meta-item"><i class="fa-solid fa-seedling"></i> <span>Fabric: 100% Organic Linen / Pure Silk</span></div>
+            <div class="meta-item"><i class="fa-solid fa-feather"></i> <span>Lining: Zero-Itch Soft Cotton Lining</span></div>
+            <div class="meta-item"><i class="fa-solid fa-scissors"></i> <span>Fit: Growth-Friendly Seam Margins</span></div>
+          </div>
+
+          <div class="modal-size-select">
+            <label for="size-picker">Select Age / Size:</label>
+            <div class="size-options" id="size-options">
+              <button class="size-btn" data-size="2-4Y">2-4Y</button>
+              <button class="size-btn active" data-size="4-6Y">4-6Y</button>
+              <button class="size-btn" data-size="6-8Y">6-8Y</button>
+              <button class="size-btn" data-size="8-10Y">8-10Y</button>
+              <button class="size-btn" data-size="10-12Y">10-12Y</button>
+              <button class="size-btn" data-size="12-14Y">12-14Y</button>
+              <button class="size-btn" data-size="Custom">Custom</button>
+            </div>
+          </div>
+
+          <div class="modal-actions" style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <button id="modal-add-cart-btn" class="btn btn-primary" style="flex: 1; padding: 14px 20px;">
+              <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+            </button>
+            <a href="#" id="modal-wa-btn" target="_blank" rel="noopener noreferrer" class="btn btn-wa-large" style="flex: 1; padding: 14px 20px;">
+              <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide-over Shopping Cart Drawer -->
+  <div id="cart-drawer-overlay" class="cart-overlay hidden">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <h3><i class="fa-solid fa-bag-shopping"></i> Shopping Bag (<span id="cart-header-count">0</span>)</h3>
+        <button id="close-cart-btn" aria-label="Close cart"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div id="cart-items-list" class="cart-body">
+        <!-- Dynamically rendered cart items -->
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-summary-row">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal-price">₹0</span>
+        </div>
+        <div class="cart-summary-row shipping-row">
+          <span>Delivery:</span>
+          <span class="free-shipping">FREE Express Delivery</span>
+        </div>
+        <div class="cart-summary-row grand-total-row">
+          <span>Total Amount:</span>
+          <span id="cart-total-price" class="cart-grand-total">₹0</span>
+        </div>
+
+        <div class="cart-actions">
+          <a href="#" id="cart-checkout-wa-btn" target="_blank" rel="noopener noreferrer" class="btn btn-wa-large btn-checkout">
+            <i class="fa-brands fa-whatsapp"></i> Checkout Order on WhatsApp
+          </a>
+          <button id="clear-cart-btn" class="btn btn-clear-cart">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notification -->
+  <div id="toast-notification" class="toast-notification hidden">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-msg">Item added to cart!</span>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
