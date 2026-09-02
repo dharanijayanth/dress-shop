@@ -4,17 +4,17 @@
 
 /* 1. CSS VARIABLES & COLOR PALETTE */
 :root {
-  /* Petal & Bow Boutique Color Palette */
-  --bg-base: #F7F0EC;          /* Soft Blush-Cream Base */
-  --bg-secondary: #EFE4DC;     /* Muted Blush-Sand Secondary */
-  --dusty-rose: #C4707A;       /* Primary Accent (Dusty Rose) */
-  --dusty-rose-hover: #b05c66;
-  --sage-green: #7E9987;       /* Secondary Accent (Sage Green) */
-  --muted-gold: #C5A059;       /* Gold Accent & Ratings */
-  --deep-plum: #33222B;        /* Deep Plum-Black Text & Dark Ink Background */
-  --text-dark: #33222B;        /* High-contrast plum text */
-  --text-muted: #6E5A63;       /* Soft Muted Text */
-  --highlight-cta: #C4707A;    /* Dusty Rose for Buttons & CTAs */
+  /* Professional Royal Blue & Ice Pearl Palette */
+  --bg-base: #F0F4FA;          /* Clean Soft Powder Ice-Blue Base */
+  --bg-secondary: #E2E8F4;     /* Soft Slate Ice-Blue Secondary */
+  --dusty-rose: #2563EB;       /* Royal Sapphire Blue (Primary Accent) */
+  --dusty-rose-hover: #1D4ED8; /* Deep Royal Sapphire Blue Hover */
+  --sage-green: #0E7490;       /* Steel Cyan-Teal (Secondary Accent) */
+  --muted-gold: #D97706;       /* Warm Royal Gold Accent & Ratings */
+  --deep-plum: #0F172A;        /* Midnight Royal Navy (Header, Dark Ink & Text) */
+  --text-dark: #0F172A;        /* High-contrast Midnight Ink text */
+  --text-muted: #475569;       /* Muted Slate Text */
+  --highlight-cta: #2563EB;    /* Royal Sapphire Blue for Buttons & CTAs */
   --white: #FFFFFF;            /* Pure White for Card Containers */
 
   /* Official WhatsApp Green (for floating bubble) */
@@ -33,9 +33,9 @@
   --radius-pill: 9999px;
 
   /* Shadows */
-  --shadow-subtle: 0 4px 20px rgba(51, 34, 43, 0.04);
-  --shadow-hover: 0 12px 32px rgba(196, 112, 122, 0.15);
-  --shadow-modal: 0 24px 48px rgba(51, 34, 43, 0.2);
+  --shadow-subtle: 0 4px 20px rgba(15, 23, 42, 0.05);
+  --shadow-hover: 0 12px 32px rgba(37, 99, 235, 0.18);
+  --shadow-modal: 0 24px 48px rgba(15, 23, 42, 0.25);
 
   /* Transitions */
   --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -230,11 +230,11 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .header.scrolled {
-  background-color: rgba(251, 247, 242, 0.92);
+  background-color: rgba(240, 244, 250, 0.94);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: var(--shadow-subtle);
-  border-bottom: 1px solid rgba(243, 233, 222, 0.8);
+  border-bottom: 1px solid rgba(226, 232, 244, 0.8);
 }
 
 .header-container {
@@ -254,7 +254,7 @@ h1, h2, h3, h4, .font-heading {
   font-family: var(--font-heading);
   font-size: 2.2rem;
   font-weight: 700;
-  color: var(--deep-accent);
+  color: var(--deep-plum);
   letter-spacing: 1px;
 }
 
@@ -262,7 +262,7 @@ h1, h2, h3, h4, .font-heading {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: var(--primary-accent);
+  color: var(--dusty-rose);
   margin-top: -2px;
 }
 
@@ -304,7 +304,7 @@ h1, h2, h3, h4, .font-heading {
 .mobile-toggle {
   display: none;
   font-size: 1.5rem;
-  color: var(--deep-accent);
+  color: var(--deep-plum);
   padding: 8px;
 }
 
@@ -324,7 +324,7 @@ h1, h2, h3, h4, .font-heading {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(251, 247, 242, 0.94) 0%, rgba(251, 247, 242, 0.78) 50%, rgba(251, 247, 242, 0.2) 100%);
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.92) 0%, rgba(15, 23, 42, 0.78) 55%, rgba(15, 23, 42, 0.25) 100%);
 }
 
 .hero-container {
@@ -338,26 +338,28 @@ h1, h2, h3, h4, .font-heading {
 
 .hero-badge {
   display: inline-block;
-  padding: 6px 16px;
-  background-color: rgba(201, 162, 126, 0.2);
-  color: var(--deep-accent);
+  padding: 6px 18px;
+  background-color: rgba(37, 99, 235, 0.25);
+  color: #93C5FD;
   border-radius: var(--radius-pill);
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  border: 1px solid rgba(147, 197, 253, 0.3);
 }
 
 .hero-title {
   font-size: 4rem;
   margin-bottom: 20px;
   letter-spacing: -1px;
+  color: #FFFFFF;
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: var(--text-dark);
+  color: #E2E8F0;
   margin-bottom: 36px;
   font-weight: 300;
 }
@@ -372,7 +374,7 @@ h1, h2, h3, h4, .font-heading {
 .hero-perks {
   display: flex;
   gap: 28px;
-  border-top: 1px solid rgba(138, 122, 109, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
   padding-top: 24px;
 }
 
@@ -381,12 +383,12 @@ h1, h2, h3, h4, .font-heading {
   align-items: center;
   gap: 8px;
   font-size: 0.9rem;
-  color: var(--text-dark);
+  color: #F8FAFC;
   font-weight: 500;
 }
 
 .perk-item i {
-  color: var(--highlight-cta);
+  color: #60A5FA;
 }
 
 /* 6. CATEGORIES STRIP */
@@ -2222,10 +2224,11 @@ h1, h2, h3, h4, .font-heading {
 }
 
 .newsletter-rose-band .btn-primary {
-  background-color: var(--deep-plum);
+  background-color: var(--muted-gold);
   color: var(--white);
+  font-weight: 600;
 }
 
 .newsletter-rose-band .btn-primary:hover {
-  background-color: #1f141a;
+  background-color: #b45309;
 }
