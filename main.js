@@ -19,7 +19,7 @@ const DRESS_CATALOG = [
     name: 'LIVA Floral Printed Cotton Co-ord Set',
     price: 699,
     category: 'Co-ord Sets',
-    ageRange: '2–12Y',
+    sizeRange: 'S – XXL',
     badge: 'HAY Signature',
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
     description: 'Effortless LIVA certified soft viscose cotton co-ord set featuring a printed button-down tunic top & matching cropped trousers.',
@@ -30,7 +30,7 @@ const DRESS_CATALOG = [
     name: 'Peach Blossom Tiered Floral Maxi Dress',
     price: 799,
     category: 'Floral Dresses',
-    ageRange: '2–14Y',
+    sizeRange: 'XS – XXL',
     badge: 'Bestseller',
     image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80',
     description: 'Breezy multi-tiered floral printed maxi dress with adjustable shoulder ribbon ties and cotton lining.',
@@ -41,7 +41,7 @@ const DRESS_CATALOG = [
     name: 'Pastel Mint Linen Shirt & Pant Co-ord',
     price: 749,
     category: 'Co-ord Sets',
-    ageRange: '2–10Y',
+    sizeRange: 'S – XXL',
     badge: 'Trendy Style',
     image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
     description: 'Minimalist pastel mint pure linen co-ord set with collared shirt, wooden buttons, and comfy elastic waist trousers.',
@@ -52,7 +52,7 @@ const DRESS_CATALOG = [
     name: 'Meadow Jaipur Block Printed Midi Frock',
     price: 499,
     category: 'Floral Dresses',
-    ageRange: '2–8Y',
+    sizeRange: 'XS – XL',
     badge: 'Super Value',
     image: 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=800&q=80',
     description: 'Handblock printed mulmul cotton midi dress with soft elastic neckline and zero-itch cotton lining.',
@@ -63,7 +63,7 @@ const DRESS_CATALOG = [
     name: 'Dusty Blue Peplum Top & Trousers Co-ord',
     price: 649,
     category: 'Co-ord Sets',
-    ageRange: '2–10Y',
+    sizeRange: 'S – XXL',
     badge: 'Popular Pick',
     image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80',
     description: 'Chic dusty blue flared peplum tunic paired with matching straight-fit trousers. Breathable daywear.',
@@ -74,7 +74,7 @@ const DRESS_CATALOG = [
     name: 'Chanderi Cotton Silk Kurti & Palazzo Suit',
     price: 799,
     category: 'Ethnic & Kurtis',
-    ageRange: '2–10Y',
+    sizeRange: 'S – XXL',
     badge: 'Festive Budget',
     image: 'https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=800&q=80',
     description: 'Lightweight Chanderi cotton kurti paired with comfy palazzo trousers and metallic border trim.',
@@ -85,7 +85,7 @@ const DRESS_CATALOG = [
     name: 'Boho Tassel Cotton Peplum Top Set',
     price: 549,
     category: 'Tops & Tunics',
-    ageRange: '2–10Y',
+    sizeRange: 'XS – XL',
     badge: 'Daily Comfort',
     image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
     description: 'Hand-embroidered white cotton top with colourful tassel ties and bell sleeves paired with cotton shorts.',
@@ -96,7 +96,7 @@ const DRESS_CATALOG = [
     name: 'Alia Cut Lucknowi Chikankari Anarkali',
     price: 1399,
     category: 'Ethnic & Kurtis',
-    ageRange: '4–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Handcrafted',
     image: 'https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80',
     description: 'Soft pastel peach Lucknowi thread embroidered cotton muslin Anarkali dress with dupatta.',
@@ -107,7 +107,7 @@ const DRESS_CATALOG = [
     name: 'Rose Gold Sequin Birthday Party Frock',
     price: 999,
     category: 'Party & Frocks',
-    ageRange: '2–8Y',
+    sizeRange: 'XS – L',
     badge: 'Bestseller',
     image: 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80',
     description: 'Twirl-worthy tiered tulle frock studded with soft rose gold sequins, satin waist bow tie, and 100% zero-itch organic cotton lining.',
@@ -118,7 +118,7 @@ const DRESS_CATALOG = [
     name: 'Ruby Red Jacquard Festive Party Frock',
     price: 1099,
     category: 'Party & Frocks',
-    ageRange: '2–10Y',
+    sizeRange: 'S – XXL',
     badge: 'Festive Favorite',
     image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
     description: 'Deep ruby red brocade jacquard silk frock with golden zari weave and soft cotton lining.',
@@ -129,7 +129,7 @@ const DRESS_CATALOG = [
     name: 'Lavender Gingham Plaid Co-ord Set',
     price: 699,
     category: 'Co-ord Sets',
-    ageRange: '2–8Y',
+    sizeRange: 'XS – L',
     badge: 'Trending',
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
     description: 'Cute gingham plaid crop top and wide-leg trousers set. Premium pre-washed breathable cotton.',
@@ -140,7 +140,7 @@ const DRESS_CATALOG = [
     name: 'Traditional Silk Pattu Pavadai Set',
     price: 1299,
     category: 'Ethnic & Kurtis',
-    ageRange: '2–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Heritage Silk',
     image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80',
     description: 'Traditional pure silk Pattu Pavadai skirt paired with embroidered zari blouse. Includes 2-inch growth margin.',
@@ -151,7 +151,7 @@ const DRESS_CATALOG = [
     name: 'Sparkly Peach Starburst Organza Dress',
     price: 1299,
     category: 'Party & Frocks',
-    ageRange: '2–10Y',
+    sizeRange: 'XS – XL',
     badge: 'Party Glam',
     image: 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=800&q=80',
     description: 'Shimmering peach organza dress with glitter starburst detailing and waist sash bow.',
@@ -162,7 +162,7 @@ const DRESS_CATALOG = [
     name: 'Botanical Garden Tiered Wrap Maxi Dress',
     price: 899,
     category: 'Floral Dresses',
-    ageRange: '3–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Summer Style',
     image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80',
     description: 'Flowy botanical garden floral printed wrap-front maxi dress with flutter sleeves.',
@@ -173,7 +173,7 @@ const DRESS_CATALOG = [
     name: 'Ivory French Lace Flower Girl Gown',
     price: 1499,
     category: 'Party & Frocks',
-    ageRange: '3–12Y',
+    sizeRange: 'XS – L',
     badge: 'Wedding Special',
     image: 'https://images.unsplash.com/photo-1549416878-b9ca95e26903?auto=format&fit=crop&w=800&q=80',
     description: 'Sleek duchess satin bodice with French lace sleeves and tiered tulle skirt.',
@@ -184,7 +184,7 @@ const DRESS_CATALOG = [
     name: 'Midnight Blue Satin Twirl Party Dress',
     price: 1499,
     category: 'Party & Frocks',
-    ageRange: '4–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Celebration',
     image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80',
     description: 'Elegant navy satin dress featuring criss-cross back straps and voluminous flare.',
@@ -195,7 +195,7 @@ const DRESS_CATALOG = [
     name: 'Printed Cotton Tunic & Shorts Set',
     price: 599,
     category: 'Tops & Tunics',
-    ageRange: '2–10Y',
+    sizeRange: 'XS – XL',
     badge: 'Casual Chic',
     image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
     description: 'Soft Jaipur block printed tunic top paired with elasticated cotton shorts.',
@@ -206,7 +206,7 @@ const DRESS_CATALOG = [
     name: 'Blush Pink Organza Flared Lehenga Set',
     price: 1699,
     category: 'Ethnic & Kurtis',
-    ageRange: '4–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Festive Wear',
     image: 'https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=800&q=80',
     description: 'Lightweight organza lehenga skirt decorated with subtle floral sequins paired with embroidered silk choli blouse.',
@@ -217,7 +217,7 @@ const DRESS_CATALOG = [
     name: 'Sweet Tulip Printed A-Line Play Frock',
     price: 599,
     category: 'Floral Dresses',
-    ageRange: '2–10Y',
+    sizeRange: 'XS – XL',
     badge: 'New Arrival',
     image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80',
     description: 'Soft combed cotton dress with cheerful tulip prints and breathable cotton inner lining.',
@@ -228,7 +228,7 @@ const DRESS_CATALOG = [
     name: 'Gold Zari Brocade Silk Pattu Pavadai',
     price: 1899,
     category: 'Ethnic & Kurtis',
-    ageRange: '2–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Pure Silk',
     image: 'https://images.unsplash.com/photo-1594552072238-b8a33785b261?auto=format&fit=crop&w=800&q=80',
     description: 'Traditional South Indian Pattu Pavadai woven with heavy gold zari borders and paired with contrasting silk blouse.',
@@ -239,7 +239,7 @@ const DRESS_CATALOG = [
     name: 'Dreamy Pearl Tulle Bridesmaid Gown',
     price: 1899,
     category: 'Party & Frocks',
-    ageRange: '3–14Y',
+    sizeRange: 'XS – L',
     badge: 'Wedding Luxe',
     image: 'https://images.unsplash.com/photo-1549416878-b9ca95e26903?auto=format&fit=crop&w=800&q=80',
     description: 'Dreamy floor-length ivory organza gown embellished with hand-sewn freshwater pearls and French lace trim.',
@@ -250,7 +250,7 @@ const DRESS_CATALOG = [
     name: 'Bespoke Royal Velvet Birthday Dress',
     price: 2299,
     category: 'Party & Frocks',
-    ageRange: '2–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Bespoke Fit',
     image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80',
     description: 'Deep plum velvet dress custom-tailored to your girl\'s exact measurements. Hand-worked gold embroidery and silk belt.',
@@ -261,7 +261,7 @@ const DRESS_CATALOG = [
     name: 'Bespoke Tiered Princess Couture Ballgown',
     price: 2499,
     category: 'Party & Frocks',
-    ageRange: '4–14Y',
+    sizeRange: 'S – XXL',
     badge: 'Couture Fit',
     image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80',
     description: 'Floor-length fairytale ballgown with 5 layers of soft tulle, hand-placed floral appliques, and custom length fitting.',
@@ -272,7 +272,7 @@ const DRESS_CATALOG = [
     name: 'Classic Tartan Plaid Holiday Dress',
     price: 999,
     category: 'Floral Dresses',
-    ageRange: '2–10Y',
+    sizeRange: 'S – XL',
     badge: 'Holiday Special',
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
     description: 'Traditional red & green tartan plaid cotton frock with velvet ribbon sash and soft cotton lining.',
@@ -285,7 +285,7 @@ let currentFilter = 'all';
 let searchQuery = '';
 let currentSort = 'default';
 let activeModalDress = null;
-let activeModalSize = '4-6Y';
+let activeModalSize = 'M';
 
 // Shopping Cart State
 let cartItems = JSON.parse(localStorage.getItem('zinzu_cart')) || [];
@@ -498,7 +498,7 @@ function createGeneralWhatsAppUrl(customMessage = '') {
  * Render single product card HTML
  */
 function renderProductCard(dress) {
-  const waUrl = createWhatsAppOrderUrl(dress.name, dress.price, dress.ageRange);
+  const waUrl = createWhatsAppOrderUrl(dress.name, dress.price, dress.sizeRange);
 
   return `
     <article class="product-card" data-id="${dress.id}" data-category="${dress.category}">
@@ -513,7 +513,7 @@ function renderProductCard(dress) {
         <div class="product-meta">
           <div>
             <span class="product-category-tag">${dress.category}</span>
-            <span class="age-badge">${dress.ageRange}</span>
+            <span class="age-badge">${dress.sizeRange}</span>
           </div>
           <span class="product-price">₹${dress.price.toLocaleString('en-IN')}</span>
         </div>
@@ -602,7 +602,7 @@ function openQuickViewModal(dressId) {
   if (!dress) return;
 
   activeModalDress = dress;
-  activeModalSize = dress.ageRange || '4-6Y';
+  activeModalSize = 'M';
 
   const modal = document.getElementById('quick-view-modal');
   const imgEl = document.getElementById('modal-img');
@@ -612,7 +612,7 @@ function openQuickViewModal(dressId) {
   const descEl = document.getElementById('modal-description');
 
   if (imgEl) imgEl.src = dress.image;
-  if (catEl) catEl.textContent = `${dress.category} • ${dress.ageRange}`;
+  if (catEl) catEl.textContent = `${dress.category} • Sizes ${dress.sizeRange}`;
   if (titleEl) titleEl.textContent = dress.name;
   if (priceEl) priceEl.textContent = `₹${dress.price.toLocaleString('en-IN')}`;
   if (descEl) descEl.textContent = dress.description;
