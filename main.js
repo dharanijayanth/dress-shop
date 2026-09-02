@@ -14,141 +14,141 @@ const SHOP_WHATSAPP_DISPLAY = '+91 78259 57949';
 // 2. PRODUCT CATALOG DATA
 // ==========================================
 const DRESS_CATALOG = [
-  // FORMAL WEAR (12 Items)
+  // CASUAL WEAR (12 Items)
   {
     id: 'dress-1',
-    name: 'Executive Tailored Blazer & Trousers Suit',
-    price: 1299,
-    category: 'Formal Wear',
+    name: 'LIVA Viscose Printed Casual Co-ord Set',
+    price: 699,
+    category: 'Casual Wear',
     sizeRange: 'S – XXL',
-    badge: 'Executive',
+    badge: 'Bestseller',
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
-    description: 'Chic structured single-breasted blazer paired with high-waisted tailored formal trousers for work & business meetings.',
+    description: 'Effortless LIVA certified soft viscose cotton co-ord set featuring a printed button-down tunic top & matching cropped trousers.',
     isFeatured: true
   },
   {
     id: 'dress-2',
-    name: 'LIVA Viscose Formal Shirt & Pant Co-ord',
-    price: 699,
-    category: 'Formal Wear',
-    sizeRange: 'S – XXL',
-    badge: 'Office Chic',
-    image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
-    description: 'Effortless LIVA certified breathable viscose formal collared button-down tunic top and straight-cut trousers.',
+    name: 'Peach Blossom Tiered Casual Maxi Dress',
+    price: 799,
+    category: 'Casual Wear',
+    sizeRange: 'XS – XXL',
+    badge: 'Casual Chic',
+    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80',
+    description: 'Breezy multi-tiered floral printed casual maxi dress with adjustable shoulder ribbon ties and cotton lining.',
     isFeatured: true
   },
   {
     id: 'dress-3',
-    name: 'Pastel Mint Linen Formal Shirt & Pant Set',
+    name: 'Pastel Mint Pure Linen Casual Shirt & Pant Set',
     price: 749,
-    category: 'Formal Wear',
+    category: 'Casual Wear',
     sizeRange: 'S – XXL',
     badge: 'Minimalist',
     image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80',
-    description: 'Minimalist pastel mint pure linen collared shirt set with wooden buttons and front-pleated formal pants.',
+    description: 'Minimalist pastel mint pure linen collared shirt set with wooden buttons and front-pleated casual pants.',
     isFeatured: true
   },
   {
     id: 'dress-4',
-    name: 'Crisp Cotton Formal Button-Down Shirt Dress',
-    price: 599,
-    category: 'Formal Wear',
+    name: 'Meadow Jaipur Handblock Printed Midi Dress',
+    price: 499,
+    category: 'Casual Wear',
     sizeRange: 'XS – XL',
     badge: 'Super Value',
     image: 'https://images.unsplash.com/photo-1596870230751-ebdfce98ec42?auto=format&fit=crop&w=800&q=80',
-    description: 'Classic crisp cotton formal midi shirt dress with tie-up waist sash belt and smart collar.',
+    description: 'Handblock printed mulmul cotton casual midi dress with soft elastic neckline and zero-itch cotton lining.',
     isFeatured: false
   },
   {
     id: 'dress-5',
     name: 'Dusty Blue Peplum Tunic & Trouser Set',
     price: 649,
-    category: 'Formal Wear',
+    category: 'Casual Wear',
     sizeRange: 'S – XXL',
     badge: 'Popular Pick',
     image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
-    description: 'Sophisticated dusty blue flared formal peplum tunic paired with slim-fit ankle length trousers.',
+    description: 'Chic dusty blue flared peplum tunic paired with slim-fit ankle length casual trousers.',
     isFeatured: false
   },
   {
     id: 'dress-6',
-    name: 'Classic Navy Blue Tailored Formal Midi Dress',
-    price: 899,
-    category: 'Formal Wear',
-    sizeRange: 'S – XXL',
-    badge: 'Workwear',
-    image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80',
-    description: 'Elegant navy blue A-line formal midi dress with cap sleeves and concealed zip closure.',
-    isFeatured: true
+    name: 'Boho Tassel Embroidered Cotton Tunic Top',
+    price: 549,
+    category: 'Casual Wear',
+    sizeRange: 'XS – XL',
+    badge: 'Daily Comfort',
+    image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
+    description: 'Hand-embroidered white cotton tunic top with colourful tassel ties and bell sleeves.',
+    isFeatured: false
   },
   {
     id: 'dress-7',
-    name: 'Lavender Gingham Plaid Formal Co-ord',
+    name: 'Lavender Gingham Plaid Casual Co-ord Set',
     price: 699,
-    category: 'Formal Wear',
+    category: 'Casual Wear',
     sizeRange: 'XS – L',
     badge: 'Trending',
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
-    description: 'Smart lavender gingham plaid formal tunic and wide-leg trouser set. High quality pre-washed fabric.',
+    description: 'Cute gingham plaid crop top and wide-leg trousers set. Premium pre-washed breathable cotton.',
     isFeatured: false
   },
   {
     id: 'dress-8',
-    name: 'Pinstripe Linen Formal Shirt & Pant Suit',
-    price: 799,
-    category: 'Formal Wear',
+    name: 'Botanical Garden Tiered Wrap Casual Maxi',
+    price: 899,
+    category: 'Casual Wear',
     sizeRange: 'S – XXL',
-    badge: 'New Drop',
-    image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
-    description: 'Vertical pinstripe linen formal shirt set styled for executive meetings and corporate environments.',
+    badge: 'Summer Style',
+    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80',
+    description: 'Flowy botanical garden floral printed wrap-front casual maxi dress with flutter sleeves.',
     isFeatured: false
   },
   {
     id: 'dress-9',
-    name: 'Monochrome Belted Formal Midi Shirt Dress',
-    price: 849,
-    category: 'Formal Wear',
+    name: 'Printed Cotton Tunic & Shorts Casual Set',
+    price: 599,
+    category: 'Casual Wear',
     sizeRange: 'XS – XL',
-    badge: 'Office Style',
-    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80',
-    description: 'Sharp black & white monochrome formal shirt dress with contrast belt and side pockets.',
+    badge: 'Casual Chic',
+    image: 'https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&w=800&q=80',
+    description: 'Soft Jaipur block printed tunic top paired with elasticated cotton casual shorts.',
     isFeatured: false
   },
   {
     id: 'dress-10',
-    name: 'Beige Tailored Single-Breasted Blazer Set',
-    price: 1499,
-    category: 'Formal Wear',
-    sizeRange: 'S – XXL',
-    badge: 'Executive',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
-    description: 'Neutral beige tailored blazer jacket paired with pleated formal trousers for effortless elegance.',
+    name: 'Sweet Tulip Printed A-Line Casual Dress',
+    price: 599,
+    category: 'Casual Wear',
+    sizeRange: 'XS – XL',
+    badge: 'New Arrival',
+    image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80',
+    description: 'Soft combed cotton casual dress with cheerful tulip prints and breathable cotton inner lining.',
     isFeatured: false
   },
   {
     id: 'dress-11',
-    name: 'Structured Formal Waistcoat & Trousers Set',
-    price: 1099,
-    category: 'Formal Wear',
+    name: 'Sage Green Linen Casual Tunic & Trousers',
+    price: 749,
+    category: 'Casual Wear',
     sizeRange: 'S – XXL',
-    badge: 'Formal Glam',
-    image: 'https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80',
-    description: 'Modern 3-button formal waistcoat top paired with matching high-rise formal trousers.',
+    badge: 'Daily Wear',
+    image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
+    description: 'Calm sage green casual tunic with mandarin collar and matching straight-cut cotton trousers.',
     isFeatured: false
   },
   {
     id: 'dress-12',
-    name: 'Sage Green Formal Tunic & Straight Trousers',
-    price: 749,
-    category: 'Formal Wear',
-    sizeRange: 'S – XXL',
-    badge: 'Daily Workwear',
-    image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80',
-    description: 'Calm sage green formal tunic with mandarin collar and matching straight-cut office trousers.',
+    name: 'Classic Tartan Plaid Casual Holiday Dress',
+    price: 999,
+    category: 'Casual Wear',
+    sizeRange: 'S – XL',
+    badge: 'Holiday Special',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80',
+    description: 'Traditional red & green tartan plaid cotton dress with ribbon sash and soft cotton lining.',
     isFeatured: false
   },
 
-  // TRADITIONAL & ETHNIC WEAR (12 Items)
+  // TRADITIONAL WEAR (12 Items)
   {
     id: 'dress-13',
     name: 'Traditional Kanjivaram Pure Silk Pattu Set',
@@ -836,6 +836,21 @@ document.addEventListener('DOMContentLoaded', () => {
           b.classList.toggle('active', b.dataset.filter === selectedCat);
         });
         renderProductGrid();
+      }
+    });
+  });
+
+  // Nav link category target handlers (Traditional & Casual)
+  document.querySelectorAll('.nav-link[data-cat-target]').forEach(link => {
+    link.addEventListener('click', () => {
+      const cat = link.dataset.catTarget;
+      if (cat) {
+        currentFilter = cat;
+        filterBtns.forEach(b => {
+          b.classList.toggle('active', b.dataset.filter === cat);
+        });
+        renderProductGrid();
+        document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
       }
     });
   });
